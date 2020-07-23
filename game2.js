@@ -173,7 +173,7 @@ let ctx = canvas.getContext('2d');
 let goImg = new Image();
 goImg.onload = function(){
     ctx.drawImage(goImg, 0, 0, 760, 760);
-    ctx.fillText('Score: ' + score, 10, 30);
+    // ctx.fillText('Score: ' + score, 10, 30);didn't manage to put the last score
     mySound.stop();
     // game.load.image('start', 'button.png');
 };
